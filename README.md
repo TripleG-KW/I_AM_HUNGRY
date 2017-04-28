@@ -1,5 +1,5 @@
-# I AM HUNGRY (Bae is Gof)
-Recipe Search &amp; Viewer Implemented in C++
+# I AM HUNGRY
+Recipe Search & Viewer Implemented in C++
 
 ```
 git clone https://github.com/TripleG-KW/I_AM_HUNGRY.git
