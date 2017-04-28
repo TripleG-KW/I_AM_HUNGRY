@@ -1,0 +1,6263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일\stuff">
+      <UniqueIdentifier>{359cefef-4f4c-4a19-8c57-d2fefaeb305b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일\recipe">
+      <UniqueIdentifier>{cde17dd4-cf11-4828-b7ae-48ac81824274}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stuff.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="recipe.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="stufflist.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="recipe\Che Thack Luu(채택루).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\Fresh Spring Roll.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\Rock’N Roll.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가래떡꼬치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가리비그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가리비깐소.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가리비꼬치구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가자미구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가자미롤찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가자미조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지냉국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지된장찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지쇠고기볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지와마른새우무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지치즈그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지치즈튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지토마토그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가지튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\가토쇼콜라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\각색경단.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\각색두부전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\간소새우.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\간장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\간장게장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\간장떡볶이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\간전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈비구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈비찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈비탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈치구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈치노끈소금구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈치맑은찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈치무조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈치조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈치채소말이조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈치카레구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갈치카레튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자&amp;고구마치즈옹심이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자고로케.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자곤약조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자로싼도미스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자마늘볼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자베이컨볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자수제비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자수플레.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자양파그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자오븐구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자타르트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자프라이팬구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자피자구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감자햄버거.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\감주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갓김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\강된장찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\갖은나물.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\개성주악.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\개장국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\개조개쌈장볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건강식과일해산물샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도간장소스백립.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도갈비구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도닭찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도돈족냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도럼코코아초콜릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도새우XO소스볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도스콘.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도오색경단.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도완자탕수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도찰떡파이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도찹쌀단자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\건포도초콜릿볼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\게맛살치즈말이튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\게살과 소바 샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\게살소스스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\견과류 영양솥밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\견과류조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란돈부리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란말이주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란실파국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란오븐구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란유부찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계란토스트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계피설탕빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\계피향의 바나나구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마그라탱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마깔조네.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마맛탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마빠스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마스프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마전피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마줄기볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마찹쌀도넛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마크로켓.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고구마파이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고덕칡냉면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고들빼기김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어된장구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어두부말이조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어무조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어사각스시.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어양념구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어추어탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어카레튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고등어튀김케첩조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고사리볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추닭볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추부각.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추잡채와꽃빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장닭강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장떡.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장볶음칼국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장북어찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장불고기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장얼큰라면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고추장오징어순대구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\고춧기름.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\곤약무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\곤약소박이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\골드 코스트 코코넛 쉬림프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\골뱅이냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\골뱅이덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\골뱅이무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\골뱅이볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\골뱅이옥수수무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\곰돌이몰드초콜릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\곰탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\곱창전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일 깍기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일돈까스와소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일소스의치킨데리야키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일젤리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일찰떡카나페.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일천사채국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일카스테라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일타르트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일타틀렛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일팥빙수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일프리터.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과일화채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\과편.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\관자와버섯을곁들인리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\구겔호프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\구절판.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\국수계란말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\국수냄비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\국수전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\군만두.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴깍두기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴꼬치구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴무밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴북어찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴비기노메야끼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴비매운탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴비조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴소스 죽순버섯볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴소스와 튀김갈치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴소스파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴청경채부침개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\굴튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\귤주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\그린샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\그릴드쉬림프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\근대된장국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\기스면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김밥계란말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치 파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치계란피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치꽁치조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치동그랑땡.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치두부쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치드레싱오징어말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치말이미트로프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치메밀묵장국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치수제비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치쌈밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치어묵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치연어롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치오꼬노미야끼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치우동.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치잡채춘권.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치제육보쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치채소볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치채소쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치치킨도리아.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치콩비지전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치핫도그.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\김치홍합국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\까나페.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\까르보나라 (이탈리아식).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\까르보나라 (한국식).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\까페라떼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깍두기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깐쇼자라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깐풍기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깐풍새우.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깨빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깨소스밥꼬치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깨찰빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깻잎김말이튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깻잎롤김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깻잎마끼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깻잎말이김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\깻잎조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\껍질콩버터조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꼬리곰탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꼬마버거.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꼬막양념찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꼬막오븐구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꼴뚜기조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽁치구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽁치김치찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽁치깻잎말이구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽁치튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽃게장무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽃게찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽃게탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽃게해물탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽃만두국(완당국).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽃만두피컵참치샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽃부꾸미.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽃상추쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽈리고추마른새우볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽈리고추밀가루찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽈리고추찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꽈배기페스트리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\꿔바로우.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\나물비빔밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\나박김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\낙지볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\낙지불고기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\낙지연포탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\낙지전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\낙지호롱구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\난자완스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉고기쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉라면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉면육수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉소면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉이된장찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉이조갯국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉이초무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\냉콩국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\너비아니구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\넛트초콜릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\넛트핫케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\노엘케이크(집모양케이크).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\녹두고물호박떡케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\녹두전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\녹두죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\녹차머핀.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\녹차쉬폰케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\녹차콩국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\녹차티라미수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\뇨끼프리마베라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\누룽적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\누룽지케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\누룽지탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\느타리버섯볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\다나블루소스의 그린파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\다시마냉국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\다시마채소말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\다시마튀각.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단팥죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박떡케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박매운해물찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박베이컨구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박주뻬따.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박커틀릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박크림수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박크림찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\단호박튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\달래간장과 모둠버섯밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\달래굴파전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\달래된장찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\달래무침과냉이나물.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\달래새우찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\달래오이무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\달래장김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\달래지짐.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭가슴살 샐러드와 오렌지드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭가슴살 샤프란 리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭가슴살과토마토양파소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭가슴살구이와채소샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭가슴살샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭가슴살해파리샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭갈비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭개장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기냄비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기명란튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기소스와굴비튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기수삼샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기유부말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기카레튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기콘그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭고기콩나물덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭꼬치구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭날개너트봉.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭날개주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭날개튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭매운찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭봉오븐구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭산적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭살크림수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭안심삼색튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭안심죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭안심채소말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭안심카레튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\닭칼국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\당근쨈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\당근채 견과류샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\당근케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대구계란죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대구전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대구지리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대구지리탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대구탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대나무쌈밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대대로닭칼국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대추생강차.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대추수삼마늘튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대추차.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대파 파프리카굴소스볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대파미소구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대파미트볼꼬치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대파산적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대파생채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\대합구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\더덕구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\데리야끼소스에 절인 관자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\데쎄르.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\덴까스우동.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\덴마크식당근스프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\덴마크식오믈렛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\덴마크식치즈케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\도가니탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\도라지생채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\도라지오이생채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\도루묵구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\도미조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\도토리묵무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돈가스덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돈까스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돈까스와베이비콘.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돈부리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돈육불고기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돌나물김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돌나물달래샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돌솥비빔밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\동그랑땡.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\동남아식튀김국수샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\동아만두.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\동지팥죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\동치미.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\동치미막국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\동태찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지갈비고추장케첩조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지갈비구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지갈비레몬찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지갈비찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기고추장구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기김치롤튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기김치볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기김치찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기바베큐.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기스테이크와구운사과.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기우엉말이조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기채소전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기치즈말이튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기치즈지짐.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\돼지고기표고볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\된장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\된장깻잎장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\된장소스와 채소샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\된장찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\된장채소수제비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두릅김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두릅된장무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두릅숙회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두반장해물볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부구이와 버섯볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부다시마말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부드레싱과 채소샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부미역냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부밥부침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부밥피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부버섯볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부새우젓국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부새우젓국찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부선.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부소박이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부알찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부양념조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부오믈렛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부오코노미야키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부완자전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부젓국찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부조개탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부채소냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부카나페.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부케첩볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부파프리카전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두부허브샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두붓국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\두유빙수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\드라이카레볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\드래곤 마끼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\등심구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\등심스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\디아볼로피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\디저트피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딤섬.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딸기 샌드쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딸기무스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딸기생크림케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딸기스무디.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딸기와아몬드추이르.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딸기잼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딸기주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\딸기찹쌀볼맛탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\땅콩강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\땅콩버터쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡갈비구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡갈비샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡김밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡꼬치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡만두국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡볶이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡산적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡선.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡치즈크로켓.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\떡케첩조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\뚝배기짬뽕라면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라면김말이튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라면샤부샤부.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라면전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라면채소스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라볶이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라비올리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라자니아.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라조기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라조육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\라타투유를곁들인대구요리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\러시안수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레드드라이비프커리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레몬수플레.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레몬에이드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레몬치킨.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌 연어 스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌 폭찹.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌가나슈초코타르트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌닭다리스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌랩샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌마블케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌버섯소테스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌비스코티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌셔벗.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌쇠고기샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌쇼콜라케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌애플파이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌엔다이브.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌초코쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌초코휘낭시에.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌카나페.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌컨츄리샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌컵케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌컵코블러.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌크레페케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌크리스탈쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌크림치즈푸루따.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌파르미자나.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레이즌푸실리컵샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\레인보우설기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\로메인 시저샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\로스트치킨.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\로스편채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\롤치킨.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\롤캐비지라이스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\롤케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\롱아일랜드아이스티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\루꼴라 피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\리본모양파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\리코타칼조네.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\링도넛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘꿀마리네이드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘버터빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘볶음국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘빠스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘식빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘쫑굴소스볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘콩소스의해산물요리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘크림소스를곁들인대구말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마늘팡세.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마들렌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마랄우육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마르게리따 피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마른새우볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마른오징어조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마쉬멜로우볼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마요네즈드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마요네즈새우.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\마파두부.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\만두피치즈스틱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\만둣국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\맑은대구탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\맑은떡국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\망고라씨.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\망고무스케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\망고시미루.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\매실장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\매실청.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\매운꽃게튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\매운토마토소스펜네.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\머랭쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\머스터드소스와치킨너겟.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\머위 조기찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\메기강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\메기매운탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\메뉴판생크림케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\메뉴판피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\메추리알완자구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\메추리알카나페.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\멕시칸샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\멸치꽈리고추볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\멸치볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\명란스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\명란젓.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\명란젓찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\명란찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\명태포조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모닝빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬과일.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬나물계란찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬쌈밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬채소볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬콩수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모듬해산물채소찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모밀국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모스코바뮬.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모시조개탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모양초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모양쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모짜렐라 카프레제.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모짜렐라깔조네.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모짜렐라치즈스틱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모짜렐라치즈튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모카빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\모카케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\몬테리치킨.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무구절판.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무당근피클.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무말랭이장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무맑은국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무생채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무쌈말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무우갑장과.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무지개초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무청밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\무초김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\묵과양념장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\문어초회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\문전초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\뮈슬리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미나리강회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미나리꼬막간장무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미나리나물.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니고구마케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니김밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니또띠아치킨롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니몽블랑.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니식빵튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니초콜릿케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니핫도그.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미니햄버거.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미더덕찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미모사케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미소된장국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미역국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미역냉국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미역수제비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미역완자국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\미트로프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바게트라이스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바게트샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바나나머핀.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바나나스프레드토스트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바나나주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바나나초코카스텔라롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바나나컵케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바닐라아이스크림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바베큐립.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바비큐폭찹.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바지락수제비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바지락와인찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바지락칼국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바지락콩나물찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바질토마토두부샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\바치디다마쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\발렌타인초콜릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\발사믹드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\발사믹드레싱샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\발사믹드레싱양파샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\발효초요구르트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\밤단자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\밤만주.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\밤맛탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\밤베이컨말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\밤식빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\밤초와대추초.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\밥계란찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\밥샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\배깨초무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\배머랭.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\배숙.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\배주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\배추겉절이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\배추밤김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\배추속댓국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\백김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\백설기오미자무스케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\뱅어포구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯 크림 리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯두부선.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯두부찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯롤커틀릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯만두전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯매운탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯볶음과들깨소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯슈마이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯스프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯잡채밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯크림수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯크림스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버섯호일찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버터링쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버터오징어채볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\버팔로윙.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이글치킨샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이비슈크림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이비콘채소볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이비콘채소스프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이컨꼬치구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이컨떡말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이컨떡말이조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이컨마늘조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이컨메추리알말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이컨미니커틀릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\베이컨햄말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\별미밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\병어양념구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\보고또보고닭발.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\보쌈김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\복주머니초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\복찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\볶음쌀국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\볶음우동.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\볶음유니자장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\봄나물돼지고기구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\봄동겉절이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\봄동바지락볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\봄브가나슈케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\봄채소파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\봉골레스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\부대찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\부추김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\부추부침개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\부추올리브오일무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\부추잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\부추재첩국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\부추전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\부추표고버섯볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\북어강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\북어고추장구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\북어국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\북어국밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\북어양념찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\불고기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\불고기꽃만두.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\불고기낙지전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\불고기샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\불고기양념.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\불고기찹쌀구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\붉은갓동치미.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\붕어조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\뷔슈드노엘.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\브라우니.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\브라우니치즈케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\브라우니치즈쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\브로콜리수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\브로콜리치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\브로콜리크림수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\브루스케타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\블랙스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\블루베리케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비빔국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비빔냉면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비빔만두.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비빔쌀국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비스코티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비스팅케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비파두부.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비프스트로가노프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비프채소롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\비프케밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\빈대떡.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\빈스크림왕새우.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\빕앤터커파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\빠네또네.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\뽀모도로 토마토파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쁘띠파운드케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사골우거지탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사골탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사과주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사과치즈샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사과케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사과타르트풍핫케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사과탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사색경단.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사색나물.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사천식볶음라면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사천식쇠고기스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사천식자장면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\사태장육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\산딸기무스케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\산적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\산적치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\산초포카시아.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삶은무해산물볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼겹살깻잎전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼겹살꼬치소스구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼겹살레몬찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼겹살소스구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼겹살치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼계탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색나물월남쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색라이스케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색매작과.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색밀쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색수제비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색전(고등어,갈치,새우).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼색태극말이초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼선짬뽕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼숙이탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼치마요네즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼치양념구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\삼치조림구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\상추겉절이비빔밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\상추미소국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\상추채소무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\상치적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새송이버섯구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새송이쌈장구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새송이장조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우겨자채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우도리아.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우두부찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우라이스버거.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우마요네즈볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우마요네즈소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우만두.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우베이컨말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우볶음밥춘권피튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우스크램블.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우아몬드구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우와 아보카도샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우와토마토샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우우니야끼(새우성게구이).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우튀김우동.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\새우튀김햄버거.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\색색단자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\색색주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\색전병.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\색편육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생강차.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생굴채소무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선감자채구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선다대기회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선뮈니에르.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선버터구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선살튀김과타르타르소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선커틀릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생선탕수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생크림무스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생태국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생태매운탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\생토마토주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\샤브샤브.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\서리태콩국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\서양식가자미구이와발사믹소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\섞박지.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\설렁탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\섭산적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\세공초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\소꼬리찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\소보로빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\소스를곁들인라면구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\소시지채소케첩볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\속채운감자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\송어상추까나페.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\송어샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\송어채소말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\송이산적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\송편.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\송편고추장구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\송편라비올리그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기가지찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기고추장치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기김치말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기김치말이밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기두반장스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기떡말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기말이밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기무국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기버섯덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기양상추볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기양송이볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기장조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기채소편채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기청고추찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기치즈튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기커틀릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기케첩볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠고기탕수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠머리찰떡.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇠머리찰편.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쇼콜라프로마쥬.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\수박젤리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\수박카나페.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\수박화채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\수삼영양밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\수삼치즈샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\수정과.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\수정과샤베트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\숙주미나리무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\순대볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\순두부.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\순두부찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쉬퐁케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스끼야끼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스위트콘참치전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스카치에그.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스크램블드딸기샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스크램블드에그.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스팀보트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스파게티카레미트소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스팸스시.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스펀지케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스페니쉬오믈렛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\스피드오므라이스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시가렛쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치계란말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치나물.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치된장국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치된장죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치라비올리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치베이컨주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치크림리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시금치크림소스푸질리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시나몬돼지고기편.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시드니신풀선데.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시저샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시저샐러드프렌치드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시칠리아문어샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시칠리아식 가지요리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시칠리아식 파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시칠리아식카포나타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\시칠리안 링귀니.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\식빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\식빵모서리튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\식혜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\新고구마경단.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\신선로.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\싱가폴슬링.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쌀국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쌀국수냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쌀샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쌀전병냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쌈장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쌈장떡볶이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쌈장오므라이스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쑥갠떡.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쑥버섯볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쑥브리오슈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\씀바귀나물.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아구찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아구탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아귀찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아마뜨리치아나스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아마렛띠.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아메리카노.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아메리칸닭구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아몬드녹차설기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아몬드링케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아스파라거스베이컨말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아스파라거스새우볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아욱국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아이스커피.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아이스크림와플.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아이스후르츠소다.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\아이싱쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\안심스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\알감자조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\알리오올리오 스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\알찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\알탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\애플소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\애플스튜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\애플크레이프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\애플파이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\애호박된장찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\약고추장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\약과.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\약식케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양갱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양념치킨.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양배추&amp;호박찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양배추말이찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양배추말이케첩조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양배추베이컨말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양배추와버섯두부쌈장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양배춧국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양상추돼지고기쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양상추참치샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양상추튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양송이버섯죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양송이치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양송이크림수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양송이크림스프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양장피냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양파김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양파링카레튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양파쌈파이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양파와토마토의또띠아치킨롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\양파전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어니언그라탱수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어니언브레드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어리굴젓.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵계란말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵곤약조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵김밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵꼬치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵냄비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵닭고기조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어묵전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\어선.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\얼갈이열무물김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\얼큰어묵탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\에그미트로프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\에스프레소 목살 스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\엔다이브 위의 쇠고기볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연근볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연근전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연근조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연근카레전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어까르파치오.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어된장찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어알초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어양상추쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어오차즈케.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어오픈샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어채소채말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\연어초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\열무김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\열무김치냉면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\열무비빔밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\영양돌솥밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\영양채소밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오곡밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오곡밥쌈밥정식.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오곡밥에그.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오곡주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오과차.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오꼬노미야끼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오렌지건포도빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오렌지소스탕수육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오렌지아몬드트일.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오렌지젤리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오렌지크레이프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오리고기탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오무라안메밀국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오므라이스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오믈렛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오믈렛도시락.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오븐감자구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오븐고구마구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오븐라자냐.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오븐스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오븐에 구운 브리치즈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오븐채소구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오색대하찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오색주먹밥도시락.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오이갑장과.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오이나물.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오이냉국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오이소박이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오이지장아찌무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오이피클.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어강회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어도라지생채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어떡볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어먹물 파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어먹물스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어무침냉면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어버터구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어볶음과소면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어불고기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어산적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어삼겹살볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어섞박지.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어섞어찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어숙회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어순대.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어와마늘소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어젓갈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어채볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어채소부침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어초말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어탕수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어통구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어풋마늘산적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오징어피자스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오코노미야키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\오향장육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\옥수수볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\옥수수수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\옥수수아이스크림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\옥수수오믈렛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\옥수수죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\옥수수크로켓.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\옥수수프리터.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\온면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\와사비간장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\와사비문어숙회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\와사비연어샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\와사비크림치즈와채소스틱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\와인소스미트볼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\와인소스의감자로싼도미요리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\완두콩감자수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\완두콩수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\완자꼬치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\왕새우구이와구운채소.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\왕새우당면프라이드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\왕새우칠리소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\요거트젤리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\요거트크림새우.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\요구르트두부주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\요구르트젤리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\요구르트푸딩.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\요세나베(모듬생선).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우거지된장찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우동.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우럭매운탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우렁된장쌈밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우무콩냉국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우묵냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우엉시금치죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우엉조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우유두부.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\우유식빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\울만두.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\울면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\원소병.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\월남쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\월도프치킨샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\웰빙비빔밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유부계란찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유부냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유부만두탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유부미역된장국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유부쌈밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유부초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유부치즈밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유자드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유자차.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\유자화채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\육개장.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\육회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\은대구두치소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\은행탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\이유식치즈죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\이탈리안오믈렛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\인도식감자전병.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\인도식과일카레라이스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\인삼마른정과.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\인절미.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\일본식닭조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\일본식도시락.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\일식계란찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\임연수쑥완자탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잉글리쉬머핀.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\자두주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\자라죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\자라호박볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\자반고등어구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\자색고구마수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\자장떡볶이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\자장면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잔멸치된장볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잔멸치쌈장볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잔멸치파래튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잔치국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잠발라야.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잡채밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잡채전병튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잡탕밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잣죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장똑똑이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장미꽃아이스크림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장어계란말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장어구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장어깐풍기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장어덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장어두부.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장어소면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\장어초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\재첩국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\재첩무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\잼(사과, 딸기, 포도).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\전기밥솥케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\전복죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\전어회무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\절편.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\정통 나폴리 까르보나라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\정통일본식우동.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\제육겨자쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\제육두반장볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\제육배추찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\제육보쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\제육불고기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\제육쌈장볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\제육파말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\제탕(육탕).txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\젤리샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\젤리팥빙수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\조개관자꼬치구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\조개맑은탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\조개샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\조개토마토스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\조기매운탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\조기양념장구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\조기한식조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\족편.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\죽순볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\죽순죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\죽순표고버섯볶음나물.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\죽순회와미나리강회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\중국식고추잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\중국식볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\중국식연두부.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\중국식오이김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\중국식오징어볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\중국식짬뽕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\증편.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\지중해식볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\짜사이콩나물국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\짜춘권.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\짬뽕해물탕밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쫄면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쭈꾸미버터구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찐빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\차가운토마토수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\차돌박이겉절이무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\차돌박이찹쌀구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찬밥맛탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찬밥을 이용한시금치리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찬밥인절미.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찬밥전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찬밥지짐이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찬밥팬피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찰밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참나물간장무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참나물고추장무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치김말이튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치김밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치김초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치김치말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치김치찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치버거.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치볼케첩조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치샐러리스틱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치양송이구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치완자전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치주먹밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치찜만두.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치채소전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치파이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치회무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\참치회무침비빔국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찹밥키쉬.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\찹스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소간장장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소감자지짐.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소모닝빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소비빔소면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소새우찜밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소스프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소알밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소영양밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소치즈죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소피클.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\채소피클깻잎말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\철판우동.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\청경채닭고기볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\청경채닭살무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\청국장찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\청어구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\청포묵전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초고추장쑥무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초교탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코넛트바.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코머핀.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코밤범벅.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코버터쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코비스코티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코스콘.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코칩쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코크리스피.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초코프루츠.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초콜릿무스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초콜릿아이스크림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초콜릿케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\초콜릿퐁듀.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\총각김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쵸코생크림케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쵸코칩쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\춘권피건강샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\춘권피채소말이튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\충무김밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치라시스시.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈감자칩.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈고기말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈돈까스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈떡볶이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈라이스볼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈만두튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈멸치볼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈밥피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈볶음라면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈사탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈스틱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈아보카도.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈알쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈연어구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈찹쌀고기말이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈카나페.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈크로켓.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈토마토.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈파강회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈파전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈플레이트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치즈피망전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨갈란틴.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨감자롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨까스와 허니머스터드드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨데리야끼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨랩샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨밀쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨버섯찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨볼과소면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨케밥과 카레볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨케밥구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨퀘사디아.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\치킨텐더.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\칠리새우.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\칠리소스라이스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\칠리소스참치볼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\칡냉면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카레국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카레떡볶이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카레라면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카레라이스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카레튀김밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카스테라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카페라떼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카펠리니 버섯 크림파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카푸치노.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\카프레제.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\캘리포니아롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\커리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\커스터드푸딩.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\커피머핀.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\컬리플라워해물샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\컴비네이션피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\컵샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\케러멜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\케이준입힌갈치와이탈리안드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\케이준치킨샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\케이크아이스크림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\케첩볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\코다리강정.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\코다리조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\코다리찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콘마요네즈버터구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콘버터.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콘새우계란찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콘샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콘소스탕수육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콘치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콘컵케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콘크림수프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩가루에빠진쑥국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩가루찬밥지짐이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩국계란찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩국과일펀치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩국냉파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩국젤리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물국밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물냉국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물무밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물미나리무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물버섯덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물북어채국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물비빔밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩나물해물겨자무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩비지찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\콩자반.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\쿠키카드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\퀘사딜라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크라포딘닭구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크레송샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크레이프쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크로아상샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크로켓.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크루아상.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크리스마스빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크리스마스케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크림소스를곁들인생선전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크림소스파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크림치즈&amp;키위.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크림치즈타르트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크림치즈팬케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\크박.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\클래식 쇼콜라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\클럽샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\키세스초코땅콩쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\키위드레싱과콘샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\키위주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\키조개나물밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\타래과.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\타르타르소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\타이식 오이땅콩 샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\타코샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\탄두리치킨.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\탕수육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\탕평채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\터널바게트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토란곰탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토란닭고기찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토란탕수제비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토미트소스파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토와찐갈치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토주스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토마토해산물스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\토스트피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\톰얌꿍.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\톳미역콩국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\통마늘장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\통배추김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\튀김고등어와토마토탕수육소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\튀김덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\튀김볼모듬.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\트러플쉘.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\티라미수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\티포크쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파래무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파스칼샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파스타그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파스타샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파인애플갑오징어튀김.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파인애플머핀.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파인애플탕수육.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파티샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파프리카볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파프리카향의 치킨셀러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\파프리카향의쁘띠첼샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\팔보라면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\팔보채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\팥시루떡.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\팥앙금빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\팥칼국수.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\팥타르트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\패주베이컨말이구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\팽이버섯냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\페델리니 카르보나라.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\페스토소스스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\펜네 아라비아따.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\펠라레제 파스타.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\편육파채무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\포기김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\포도잼.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\포크소테.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\포크스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\포테이토스킨.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\포테이토칩.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\표고버섯감자볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\표고보트.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\표고전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\푸실리크림스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\푸타네스카스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\풋마늘쇠고기강회.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\풋마늘주꾸미볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\퓨전만두.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\퓨전오절판과콩비지땅콩버터소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\퓨전찹스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\퓨전호박죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\프라이드그린토마토.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\프라이팬넛트쿠키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\프랜치토스트샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\프럼케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\프렌치드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\플랜터즈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피넛버터소스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피넛소스와밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피로키.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피망소스라자냐.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피망잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피스타치오샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피자돈까스.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피자떡볶이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\피칸파이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\필라델피아롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\하트오믈렛.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\한국식타코샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\한방닭찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\한식닭양념구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\핫도그샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\핫샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\핫케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물 취나물된장국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물간장링귀니.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물국시.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물김치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물누룽지탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물된장냄비.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물떡꼬치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물라이스그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물리조또.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물매운탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물별미밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물볶음밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물볶음우동.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물빠에야.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물샤브샤브.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물순두부찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물스파게티.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물잣소스무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물전골.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물지지기.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물채소볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물파전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물팟타이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해물필라프.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해산물모듬샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해산물샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해삼밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해장라면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해초무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해파리냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해파리새우말이냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\해파리해물냉채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\햄&amp;베이컨채소쌈.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\햄감자그라탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\햄김치롤.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\햄마늘볶음.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\햄버거스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\햄치즈롤샌드위치.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\향신양념갈비구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\향신양념무장아찌.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\향신양념쇠고기장조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\향신양념잡채.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\향신양념장어튀김조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\향신양념콩나물무침.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\향신양념해물파전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\허브를입혀튀긴고등어샐러리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\허브를입혀튀긴새우와레몬드레싱.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\허브비빔밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\현미과일케이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\현미땅콩죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\현미초밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\호박가지된장구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\호박두부찌개.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\호박미니버거.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\호박빵.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\호박선.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\호박전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\호박죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\호일초콜릿.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍어찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍차계란장조림.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍초젤리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍합 봉골레 페투치니 알리올리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍합구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍합꼬치구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍합미역국.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍합찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍합초.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍합치즈구이.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\홍합탕.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\화양적.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\화이트와인젤리.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\화전.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\화전갈비찜.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\회냉면.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\회덮밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\휠레미뇽스테이크.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\흑미 샐러드.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\흑미영양솥밥.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\흑임자깨죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\흑임자죽.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="recipe\흰떡베이컨말이피자.txt">
+      <Filter>리소스 파일\recipe</Filter>
+    </Text>
+    <Text Include="stuff\가자미.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\가지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\간장.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\갈비.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\갈비살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\갈치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\갈치살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\감자.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\감자칩.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\갑오징어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\갓.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\강력분.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\개고기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\개조개.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\건꼴뚜기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\건포도.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\게.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\게맛살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\게살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\계란.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\계란노른자.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\계란흰자.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\고구마.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\고구마줄기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\고들빼기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\고등어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\고사리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\고추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\고추장.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\곤약.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\골뱅이.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\골뱅이통조림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\곱창.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\관자.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\국수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\굴.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\굴비.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\귤.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\근대.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\김.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\김치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\김치잎.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\까망베르치즈.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\깨.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\깻잎.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\껍질콩.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\꼬막.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\꽁치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\꽁치통조림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\꽃게.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\꽈리고추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\낙지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\날콩가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\냉동만두.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\냉면.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\냉면국수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\냉면사리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\냉이.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\녹두.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\누룽지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\느타리버섯.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\다시마.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\다진건포도.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\다진쇠고기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\다크초콜릿.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\단호박.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\달래.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\닭.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\닭가슴살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\닭고기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\닭다리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\닭발.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\닭봉.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\닭안심.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\당근.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\당면.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\대구.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\대구살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\대추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\대파.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\대하.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\대합.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\더덕.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\도가니.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\도라지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\도루묵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\도미.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\도미살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\도토리묵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돈족.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돌나물.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\동아.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\동태.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\동태살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돼기고기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돼지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돼지갈비.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돼지고기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돼지기름.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돼지등갈비.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\돼지호박.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\두릅.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\두부.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\두부적.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\두유.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\등심.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\딸기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\떡.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\떡국떡.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\떡볶이떡.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\또띠아.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\라면.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\라이스버거.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\라이스페이퍼.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\럼주.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\레몬.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\로메인.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\로메인레터스.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\링귀니.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\마늘.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\마늘쫑.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\마른새우.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\마른오징어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\마쉬멜로우.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\마요네즈.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\만두피.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\말린고사리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\망고퓨레.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\매실.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\메기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\메밀가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\메밀국수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\메밀묵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\메주.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\메주콩.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\메추리알.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\멥쌀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\멥쌀가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\명란.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\명란젓.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\명태.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\모닝빵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\모밀국수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\모시조개.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\모짜렐라치즈.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\모짜렐라치즈샌드위치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\무.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\무설탕크래커.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\문어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\물.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\물밤.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\미국산.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\미나리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\미니크로아상.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\미니파프리카.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\미더덕.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\미역.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\미츠바.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\밀가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\밀가루반죽.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\밀크초콜릿.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\바게트.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\바게트빵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\바나나.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\바닐라아이스크림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\바지락.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\바케트빵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\박력분.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\발사믹식초.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\밤.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\밥.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\방울토마토.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\배.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\배추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\배추김치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\배춧잎.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\백김치잎.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\백미.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\뱅어포.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\버섯.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\버터.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\베비이콘.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\베이비콘.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\베이컨.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\병어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\보드카.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\보리밥.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\보리빵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\복숭아통조림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\복어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\봄동.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\부추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\북어포.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\분설탕.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\불린미역.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\불린쌀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\불린해삼.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\붕어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\브로콜리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\브리치즈.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\비트.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\사골.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\사과.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\사태.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\산딸기퓨레.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\삶은.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\삼겹살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\삼치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\상추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\상추잎.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\새송이버섯.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\새우.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\새우살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\샐러드오일.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\샐러드용.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\샐러드채소.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\샐러리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생갈비.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생강.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생굴.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생대구.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생밤.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생새우.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생선.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생선살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생선전유어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생칼국수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생크림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생태.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\생홍합.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\서리태콩.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\설탕.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\소.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\소꼬리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\소면.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\소시지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\송어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\송이버섯.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\송편.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쇠간.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쇠고기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쇠고기등심.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쇠고기스톡.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쇠족.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\수박.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\수정과.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\숙주.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\순대.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\순두부.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\스위트콘.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\스타키스트참치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\스타키스트참치통조림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\스파게티.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\스파게티니.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\스파게티면.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\스팸.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\시금치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\시금치나물.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\시루떡.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\시판용.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\시판용육수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\식빵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\식용유.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\신김치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쌀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쌀가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쌀국수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쌈다시마.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쌈야채.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쌈장.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쑥.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\씀바귀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\씨리얼.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\아구.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\아귀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\아몬드.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\아보카도.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\아스파라거스.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\아욱.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\아이스크림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\안심.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\알감자.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\애호박.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\양배추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\양배추잎.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\양상추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\양송이버섯.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\양장피.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\양지머리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\양파.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\어묵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\얼음.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\여러가지채소.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\연근.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\연두부.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\연어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\연어알.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\열무.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\염장가지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\엿기름.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\오곡곡물.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\오곡밥.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\오렌지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\오리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\오이.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\오징어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\오징어채.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\옥수수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\옥수수통조림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\올리고당.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\올리브오일.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\올리브유.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\와사비.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\완두콩.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\왕새우.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우거지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우동.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우동면.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우동사리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우럭.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우렁.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우무.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우묵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우엉.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\우유.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\원두커피.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\유부.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\유자.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\유자청.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\육수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\은대구살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\은행.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\자두.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\자라.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\자라살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\자마이카럼.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\자반고등어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\자색고구마.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\잔멸치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\잔새우.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\잡채.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\장어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\재첩.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\적채.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\전복.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\전어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\젤리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\조개관자.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\조갯살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\조기.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\죽순.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\중력분.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\진.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쪽파.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쫄면.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\쭈꾸미.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\차돌박이.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\찬밥.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\참나물.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\참치.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\참치살.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\참치캔.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\참치통조림.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\참치회.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\찹쌀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\찹쌀가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\청경채.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\청고추.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\청국장.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\청동호박.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\청어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\청포묵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\초밥.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\초콜릿.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\총각무.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\춘권.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\춘권피.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\치즈.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\카레.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\카레가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\카스테라.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\카스텔라.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\카페에스프레소.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\칼국수.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\칼국수면.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\커피추출액.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\케일.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\코다리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\콩.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\콩국.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\콩나물.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\콩비지.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\크로와상.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\크림치즈.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\키위.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\키조개.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\타르트반죽.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\타피오카전분.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\토란.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\토란탕.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\토마토.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\토마토홀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\톳.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\통마늘.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\통북어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\파래.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\파스타.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\파프리카.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\판초콜릿.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\팥.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\팽이버섯.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\페투치니.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\포도씨유.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\포도알.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\표고버섯.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\푸실리.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\풋마늘.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\플레인요구르트.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\피넛버터.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\피망.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\피자반죽.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\핫도그빵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\핫케이크가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\해삼.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\해초.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\햄.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\햄버거빵.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\현미.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\현미찹쌀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\호두.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\호박.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\홀토마토.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\홍시.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\홍어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\홍차티백.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\홍합.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\후레쉬.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\후춧가루.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\훈제연어.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\흰밥.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\흰살생선.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\흰쌀.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\흰콩.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\가래떡.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="stuff\가리비.txt">
+      <Filter>리소스 파일\stuff</Filter>
+    </Text>
+    <Text Include="recipelist.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="bookmark.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+    <Text Include="history5.txt">
+      <Filter>리소스 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stuff.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="recipe.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="i_am_hungry.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
